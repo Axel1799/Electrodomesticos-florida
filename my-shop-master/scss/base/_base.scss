@@ -1,0 +1,81 @@
+html {
+    font-size: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: $dark;
+}
+
+a {
+    text-decoration: none;
+    @include transitionProperty(color 0.5s ease);
+    &:focus,
+    &:hover,
+    &:active {
+        outline: none !important;
+        text-decoration: none !important; // color: lighten(#e74c3c, 10%);
+    }
+}
+
+img {
+    vertical-align: top;
+    height: auto;
+}
+
+/*Simbolo de carga*/
+
+.hidden{
+    overflow: hidden;
+  }
+  
+  .centrado{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(10, 16, 104);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .lds-dual-ring {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+    }
+    .lds-dual-ring:after {
+      content: " ";
+      display: block;
+      width: 70px;
+      height: 70px;
+      margin: 10px;
+      border-radius: 60%;
+      border: 6px solid rgb(255, 255, 255);
+      border-color: #ffffff54 transparent #ffffff54 transparent;
+      animation: lds-dual-ring 1.2s linear infinite;
+    }
+    @keyframes lds-dual-ring {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+   /* termina preloader*/ 
+
+.scrollUp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    outline: none;
+    display: none;
+}
