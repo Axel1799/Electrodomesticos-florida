@@ -290,8 +290,10 @@ nav .enlaces a:hover{
 
 .portafolio-text{
 	position: fixed;
-	bottom: 0;
+	bottom: 0%;
   padding: 20px;
+  width: 23vw;
+  height: 61vh;
 
 	background: rgba(0,0,0,0.7);
 	color: #fff;
@@ -302,9 +304,9 @@ nav .enlaces a:hover{
 
   transform: translateY(100%);
 
-	-webkit-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.3s ease-out;
 
-	transition: all 0.5s ease-out;
+	transition: all 0.3s ease-out;
 }
 
 .portafolio-text li{
@@ -323,6 +325,7 @@ nav .enlaces a:hover{
     bottom: 0;
     padding: 20px;
     width: auto;
+    height: 100vh;
   
     background: rgba(0,0,0,0.7);
     color: #fff;
