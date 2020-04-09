@@ -260,9 +260,9 @@ nav .enlaces a:hover{
 }
 
 .cont-work{
-  width: 31%;
+  width: 35%;
+  height: 400px;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
-  height: 300px;
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
 }
@@ -273,17 +273,31 @@ nav .enlaces a:hover{
 }
 .img-work img{
   height: 100%;
-  width: 1005;
+  width: 100%;
   object-fit: cover;
 }
 
 .textos-work{
-  height: 10%;
+  height: 40%;
 }
 .textos-work h4{
-  line-height: 30px;
+  line-height: 20px;
   font-weight: 300%;
 }
+
+/* button{
+  cursor: pointer;
+  text-align: center;
+  height: 30px;
+  width: 42px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  color: rgb(14, 76, 146);
+  font-family: "open sans";
+  font-size: 15px;
+  border-radius: 100px;
+  border: 2px solid rgb(14, 76, 146);
+} */
 
 
 /* descripcion del producto*/
@@ -292,8 +306,8 @@ nav .enlaces a:hover{
 	position: fixed;
 	bottom: 0%;
   padding: 20px;
-  width: 23vw;
-  height: 61vh;
+  width: 22.5%;
+  height: auto;
 
 	background: rgba(0,0,0,0.7);
 	color: #fff;
@@ -323,9 +337,9 @@ nav .enlaces a:hover{
   .portafolio-text{
     position: fixed;
     bottom: 0;
-    padding: 20px;
+    padding: initial;
     width: auto;
-    height: 100vh;
+    height: auto;
   
     background: rgba(0,0,0,0.7);
     color: #fff;
