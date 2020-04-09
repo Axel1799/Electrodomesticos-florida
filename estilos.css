@@ -285,6 +285,39 @@ nav .enlaces a:hover{
   font-weight: 300%;
 }
 
+
+/* descripcion del producto*/
+
+.portafolio-text{
+	position: fixed;
+	bottom: 0;
+  padding: 20px;
+  width: 23%;
+
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+
+	-webkit-transform: translateY(100%);
+
+	-ms-transform: translateY(100%);
+
+  transform: translateY(100%);
+
+	-webkit-transition: all 0.5s ease-out;
+
+	transition: all 0.5s ease-out;
+}
+
+.portafolio-text li{
+	text-align: justify;
+}
+
+.cont-work:hover .portafolio-text{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
 /*footer*/
 footer{
   background: url(img/unnamed4.jpg);
