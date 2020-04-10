@@ -260,7 +260,7 @@ nav .enlaces a:hover{
 }
 
 .cont-work{
-  width: 35%;
+  width: 30%;
   height: 400px;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
   overflow: hidden;
@@ -272,7 +272,7 @@ nav .enlaces a:hover{
   width: 100%;
 }
 .img-work img{
-  height: 100%;
+  height: 85%;
   width: 100%;
   object-fit: cover;
 }
@@ -333,11 +333,11 @@ nav .enlaces a:hover{
 	transform: translateY(0%);
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 500px){
   .portafolio-text{
     position: fixed;
     bottom: 0;
-    padding: initial;
+    padding: 20px;
     width: auto;
     height: auto;
   
@@ -365,6 +365,7 @@ nav .enlaces a:hover{
     transform: translateY(0%);
   }
 }
+
 /*footer*/
 footer{
   background: url(img/unnamed4.jpg);
