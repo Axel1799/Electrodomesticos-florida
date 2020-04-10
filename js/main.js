@@ -4,6 +4,7 @@ let menu = document.getElementById('enlaces');
 let abrir = document.getElementById('open');
 let botones = document.getElementsByClassName('btn-header');
 let cerrado = true;
+let abrir1 = document.getElementById('abrir');
 
 //funcion para desplazar barra de navegacion
 function menus(){
@@ -72,5 +73,3 @@ window.addEventListener('resize', function(){
 abrir.addEventListener('click', function(){
     apertura();
 });
-
-
