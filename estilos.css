@@ -338,7 +338,7 @@ nav .enlaces a:hover{
     position: fixed;
     bottom: 0;
     padding: 20px;
-    width: auto;
+    width: 77%;
     height: auto;
   
     background: rgb(4, 9, 77);
@@ -365,6 +365,42 @@ nav .enlaces a:hover{
     transform: translateY(0%);
   }
 }
+
+@media screen and (max-width: 830px){
+  .portafolio-text{
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 27%;
+    height: auto;
+  
+    background: rgb(4, 9, 77);
+    color: #fff;
+  
+    -webkit-transform: translateY(100%);
+  
+    -ms-transform: translateY(100%);
+  
+    transform: translateY(100%);
+  
+    -webkit-transition: all 0.5s ease-out;
+  
+    transition: all 0.5s ease-out;
+  }
+  
+  .portafolio-text li{
+    text-align: justify;
+  }
+  
+  .cont-work:hover .portafolio-text{
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+
+
 
 /*footer*/
 footer{
