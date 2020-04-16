@@ -1,3 +1,4 @@
+
 // Variables
 let nav = document.getElementById('nav');
 let menu = document.getElementById('enlaces');
