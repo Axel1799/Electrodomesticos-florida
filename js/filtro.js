@@ -45,6 +45,6 @@ $(function(){
         e.preventDefault();
         $('html, body').animate({
             scrollTop: contacto-100
-        }, 700);
+        }, 600);
     });
 });
