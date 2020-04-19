@@ -453,26 +453,6 @@ footer {
     margin-bottom: 20px;
 }
 
-/* .footer-main .footer-columna input[type="email"] {
-	border: none;
-	width: 100%;
-	border: 1px solid #00C6EE;
-	font-size: 14px;
-	padding: 10px;
-	font-family: Raleway;
-} */
-/* 
-.footer-main .footer-columna input[type="submit"] {
-	border: none;
-	background: #00C6EE;
-	color: #fff;
-	padding: 10px 40px;
-	font-size: 18px;
-	margin-top: 10px;
-	cursor: pointer;
-	font-family: Raleway;
-} */
-
 .footer-main .footer-columna span p {
 	display: inline-block;
 	margin-left: 30px;
