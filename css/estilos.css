@@ -366,6 +366,9 @@ nav .enlaces a:hover{
   .portafolio-text h4{
     color: white;
   }
+  .portafolio-text>h4{
+    color: rgba(245, 204, 20, 0.932);
+  }
   .portafolio-text li{
     text-align: justify;
   }
