@@ -332,7 +332,7 @@ nav .enlaces a:hover{
 }
 
 .portafolio-text li{
-	text-align: initial;
+  text-align: start;
 }
 
 .cont-work:hover .portafolio-text{
@@ -368,7 +368,7 @@ nav .enlaces a:hover{
     color: rgba(245, 204, 20, 0.932);
   }
   .portafolio-text li{
-    text-align: justify;
+    text-align: start;
   }
   
   .cont-work:hover .portafolio-text{
