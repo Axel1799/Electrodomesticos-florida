@@ -333,7 +333,9 @@ nav .enlaces a:hover{
 
 .portafolio-text li{
   text-align: start;
+  line-height: 19px;
 }
+
 
 .cont-work:hover .portafolio-text{
 	-webkit-transform: translateY(0%);
@@ -363,6 +365,9 @@ nav .enlaces a:hover{
     transition: all 0.5s ease-out;
   }
   
+  .portafolio-text>u{
+    color: rgba(245, 204, 20, 0.932);
+  }
  
   .portafolio-text>h4{
     color: rgba(245, 204, 20, 0.932);
